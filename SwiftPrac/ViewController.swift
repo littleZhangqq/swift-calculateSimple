@@ -131,6 +131,7 @@ class ViewController: UIViewController {
         }else if sender.currentTitle == "c"{
             self.frontNum = ""
             self.backNum = ""
+            self.handleStyle = ""
             self.calResult.text = "0"
         }else if sender.currentTitle == "%"{
             if self.frontNum == ""{
